@@ -43,7 +43,7 @@
 		</button>
 	{:else}
 		<button
-			class="h-full w-full col-auto bg-surface-600 rounded-sm cursor-default hover:bg-surface-500"
+			class="h-full w-full col-auto bg-surface-600 rounded-sm cursor-pointer hover:bg-surface-500"
 			on:click={tileClick}
 		>
 			<svg class="w-auto h-auto invisible" viewBox="0 0 256 256"
